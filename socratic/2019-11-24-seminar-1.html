@@ -8,7 +8,7 @@
 </ul>
 <h2 id="releases">Releases</h2>
 <ul>
-<li><a href="https://github.com/lightningnetwork/lnd/releases/tag/v0.8.1-beta" target="_blank" rel="noopener">c-lightning 0.8.1 beta</a> (Bitcoin Core 0.19 compatibility) <sup>*</sup></li>
+<li><a href="https://github.com/lightningnetwork/lnd/releases/tag/v0.8.1-beta" target="_blank" rel="noopener">lnd 0.8.1 beta</a> (Bitcoin Core 0.19 compatibility) <sup>*</sup></li>
 <li><a href="https://medium.com/@JimmyMow/announcing-zap-desktop-0-6-0-beta-1724d13ae597" target="_blank" rel="noopener">Zap 0.6.0 beta release</a> + 0.6.1, 0.6.2 (lnurl, on-chain fallback, message signing) <sup>*</sup></li>
 <li><a href="https://github.com/nopara73/WalletWasabi/releases/tag/1.1.9.3nightly1" target="_blank" rel="noopener">Wasabi 1.1.9.3 nightly release</a> (built-in full node <a href="https://twitter.com/nopara73/status/1196069888042754048" target="_blank" rel="noopener">WIP</a>) <sup>*</sup></li>
 <li><a href="https://twitter.com/NicolasDorier/status/1197074719092039680" target="_blank" rel="noopener">BTCPay x.y.z <em>unreleased</em></a> (with integrated <a href="https://github.com/btcpayserver/btcpayserver.vault" target="_blank" rel="noopener">BTCPayServer Vault</a>) <sup>*</sup></li>
@@ -54,6 +54,10 @@
 <li><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002275.html" target="_blank" rel="noopener">A proposal for up-front payments</a> <sup>*</sup></li>
 <li><a href="https://lists.linuxfoundation.org/pipermail/lightning-dev/2019-November/002316.html" target="_blank" rel="noopener">Payment points without 2p-ECDSA or Schnorr</a> <sup>*</sup></li>
 </ul>
+<h3 id="lnd">lnd</h3>
+<ul>
+<li><a href="https://groups.google.com/a/lightning.engineering/forum/#!forum/lnd" target="_blank" rel="noopener">New mailing list</a> <sup>*</sup></li>
+</ul>
 <h2 id="bips-specs">BIPs &amp; specs</h2>
 <ul>
 <li><a href="https://stratumprotocol.org/" target="_blank" rel="noopener">Stratum v2</a> <sup>*</sup></li>
@@ -86,12 +90,14 @@
 <li><a href="https://bitcoinops.org/en/schorr-taproot-workshop/" target="_blank" rel="noopener">Schnorr/taproot workshop</a></li>
 <li><a href="https://bitcoinops.org/en/topics-announcement/" target="_blank" rel="noopener">Topics Index</a></li>
 </ul>
-<h2 id="network-data">Network Data</h2>
+<h2 id="network-data-tools">Network Data &amp; Tools</h2>
 <ul>
 <li><a href="https://blog.lopp.net/bitcoin-node-performance-sync-tests/" target="_blank" rel="noopener">2019 Bitcoin Node Performance Tests</a></li>
 <li><a href="https://thenextweb.com/hardfork/2019/11/04/bitcoin-mining-sucking-georgia-power-grid-dry/" target="_blank" rel="noopener">Bitcoin mining in Georgia</a></li>
-<li><a href="https://twitter.com/oxt_btc/status/1192759714427408384" target="_blank" rel="noopener">OXT Landscapes updated</a></li>
 <li><a href="https://hut8mining.com/hut-8-mining-corp-reports-financial-results-for-the-third-quarter-of-2019" target="_blank" rel="noopener">Hut 8 Mining Corp Q3 Financial Report</a></li>
+<li><a href="https://twitter.com/oxt_btc/status/1192759714427408384" target="_blank" rel="noopener">OXT Landscapes updated</a></li>
+<li><a href="https://txstats.com/" target="_blank" rel="noopener">txstats.com</a> (<a href="https://coinmetrics.io/announcing-txstats-com/" target="_blank" rel="noopener">announcement</a>) <sup>*</sup></li>
+<li><a href="https://mempool.observer/monitor/" target="_blank" rel="noopener">Mempool monitor</a> <sup>*</sup></li>
 </ul>
 <h2 id="pull-requests-and-repo-updates">Pull Requests and repo updates</h2>
 <h4 id="bitcoin-core">Bitcoin Core</h4>
@@ -123,7 +129,7 @@
 <li><a href="https://github.com/ElementsProject/lightning/pull/3223" target="_blank" rel="noopener">Expose the channel close-to address via RPC</a></li>
 <li><a href="https://github.com/ElementsProject/lightning/pull/3186" target="_blank" rel="noopener"><code>hsmtool</code> now built-in</a></li>
 </ul>
-<h4 id="lnd">lnd</h4>
+<h4 id="lnd-v2">lnd</h4>
 <ul>
 <li><a href="https://github.com/lightningnetwork/lnd/pull/1160" target="_blank" rel="noopener">Add ability to create new Macaroons</a></li>
 <li><a href="https://github.com/lightningnetwork/lnd/blob/13b56d5849a9495ed11d6928665115e88cd1d9b0/rpcserver.go#L209" target="_blank" rel="noopener">Macaroon Entities and Actions</a></li>
@@ -148,8 +154,6 @@
 <li><a href="https://medium.com/blockstream/c-lightning-plugins-04-the-listpayments-plugin-a04c2427c31b" target="_blank" rel="noopener">c-lightning Plugins 04: The listpayments Plugin</a></li>
 <li><a href="https://powswap.com/" target="_blank" rel="noopener">POWSWAP</a> (<a href="https://twitter.com/SomsenRuben/status/1194993848180568064" target="_blank" rel="noopener">actual explanation of the technical mechanism</a> by Ruben Somsen) <sup>*</sup></li>
 <li><a href="https://mobile.twitter.com/jfnewbery/status/1196460056415522817" target="_blank" rel="noopener">0.5M UTXO cleanup</a> <sup>*</sup></li>
-<li><a href="https://txstats.com/" target="_blank" rel="noopener">txstats.com</a> (<a href="https://coinmetrics.io/announcing-txstats-com/" target="_blank" rel="noopener">announcement</a>) <sup>*</sup></li>
-<li><a href="https://mempool.observer/monitor/" target="_blank" rel="noopener">Mempool monitor</a> <sup>*</sup></li>
 <li>Bitfinex support for <a href="https://www.bitfinex.com/posts/427" target="_blank" rel="noopener">bech32 withdrawals</a> and <a href="https://www.bitfinex.com/posts/429" target="_blank" rel="noopener">deposits</a> <sup>*</sup></li>
 </ul>
 <hr>
